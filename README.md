@@ -8,7 +8,7 @@
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170" target="_blank"/>
         <img src="docs/logo/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
         <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>
