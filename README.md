@@ -37,6 +37,4 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 </div>
 
 ## 🚀 3. Danh sách các bài lab
-- #### [Lab 1]
-- [Đề bài](./Lab1/lab1.pdf)
-- [Code mẫu](./Lab1/lab1.py)
+- #### [Lab 1]: [Đề bài](./Lab1/lab1.pdf) , [Code mẫu](./Lab1/lab1.py)
