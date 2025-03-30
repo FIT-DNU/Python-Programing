@@ -20,7 +20,7 @@
 </div>
 
 ## 📖 1. Giới thiệu
-Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến thức cơ bản bao gồm: cấu trúc chương trình, các kiểu dữ liệu trên Python, cấu trúc rẽ nhánh, vòng lặp, hàm, xử lý chuỗi, danh sách, module, xử lý lỗi và nhập/xuất dữ liệu và xử lý file.
+Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến thức cơ bản về: cấu trúc chương trình, các kiểu dữ liệu trên Python, cấu trúc rẽ nhánh, vòng lặp, hàm, xử lý chuỗi, danh sách, module, xử lý lỗi và nhập/xuất dữ liệu và xử lý file.
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
