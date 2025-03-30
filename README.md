@@ -37,4 +37,4 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 </div>
 
 ## 🚀 3. Danh sách các bài lab
-- #### [Lab 1: Cấu trúc rẽ nhánh](./lab1.pdf)
+- #### [Lab 1](./lab1/lab1.pdf)
