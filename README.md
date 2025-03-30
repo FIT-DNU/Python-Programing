@@ -35,3 +35,6 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 [![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 [![PyCharm](https://img.shields.io/badge/PyCharm-21D789?style=for-the-badge&logo=pycharm&logoColor=black)](https://www.jetbrains.com/pycharm/)
 </div>
+
+## 🚀 3. Danh sách các bài lab
+- #### [Lab 1]: Khai báo biến và cấu trúc rẽ nhanh (./lab1.pdf)
