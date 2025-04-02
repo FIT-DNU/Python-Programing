@@ -1,4 +1,4 @@
-# Hàm xếp loại theo điểm
+# Hàm xếp loại học lực
 def xep_loai(diem):
     if diem >= 8:
         return "Giỏi"
@@ -11,49 +11,51 @@ def xep_loai(diem):
 
 # Hàm nhập thông tin sinh viên
 def nhap_sinh_vien():
-    global so_luong
-    global ten1, diem1, ten2, diem2, ten3, diem3
+    global so_luong, ten1, diem1, ten2, diem2, ten3, diem3
 
     so_luong = int(input("Nhập số sinh viên (tối đa 3): "))
     if so_luong > 3:
         print("Chỉ cho phép tối đa 3 sinh viên.")
         so_luong = 3
 
-    if so_luong >= 1:
-        print("\n--- Sinh viên 1 ---")
-        ten1 = input("Nhập tên: ")
-        diem1 = float(input("Nhập điểm: "))
-    if so_luong >= 2:
-        print("\n--- Sinh viên 2 ---")
-        ten2 = input("Nhập tên: ")
-        diem2 = float(input("Nhập điểm: "))
-    if so_luong == 3:
-        print("\n--- Sinh viên 3 ---")
-        ten3 = input("Nhập tên: ")
-        diem3 = float(input("Nhập điểm: "))
+    for i in range(1, so_luong + 1):
+        print(f"\n--- Nhập thông tin sinh viên {i} ---")
+        ten = input("Nhập tên: ")
+        diem = float(input("Nhập điểm: "))
+
+        if i == 1:
+            ten1 = ten
+            diem1 = diem
+        elif i == 2:
+            ten2 = ten
+            diem2 = diem
+        elif i == 3:
+            ten3 = ten
+            diem3 = diem
 
 # Hàm hiển thị kết quả sinh viên
 def hien_thi_sinh_vien():
     if so_luong == 0:
-        print("Chưa có dữ liệu. Vui lòng nhập trước.")
+        print("Chưa có dữ liệu sinh viên. Vui lòng nhập trước.")
         return
 
     print("\n===== DANH SÁCH SINH VIÊN =====")
     print("{:<5} {:<20} {:<10} {:<10}".format("STT", "Tên", "Điểm", "Xếp loại"))
 
-    if so_luong >= 1:
-        print("{:<5} {:<20} {:<10} {:<10}".format(1, ten1, diem1, xep_loai(diem1)))
-    if so_luong >= 2:
-        print("{:<5} {:<20} {:<10} {:<10}".format(2, ten2, diem2, xep_loai(diem2)))
-    if so_luong == 3:
-        print("{:<5} {:<20} {:<10} {:<10}".format(3, ten3, diem3, xep_loai(diem3)))
+    for i in range(1, so_luong + 1):
+        if i == 1:
+            print("{:<5} {:<20} {:<10} {:<10}".format(i, ten1, diem1, xep_loai(diem1)))
+        elif i == 2:
+            print("{:<5} {:<20} {:<10} {:<10}".format(i, ten2, diem2, xep_loai(diem2)))
+        elif i == 3:
+            print("{:<5} {:<20} {:<10} {:<10}".format(i, ten3, diem3, xep_loai(diem3)))
 
-# Biến khởi tạo ban đầu
+# Khởi tạo các biến lưu thông tin sinh viên
 so_luong = 0
 ten1 = ten2 = ten3 = ""
 diem1 = diem2 = diem3 = 0.0
 
-# Chương trình chính
+# Chương trình chính sử dụng vòng lặp while
 def main():
     while True:
         print("\n===== MENU CHƯƠNG TRÌNH =====")
@@ -73,5 +75,5 @@ def main():
         else:
             print("Lựa chọn không hợp lệ. Vui lòng chọn lại.")
 
-# Gọi hàm main
+# Gọi hàm main để chạy chương trình
 main()
