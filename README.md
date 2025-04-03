@@ -38,4 +38,3 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 
 ## 🚀 3. Danh sách các bài lab
 - #### [Lab 1: Khai báo biến, nhập/xuất, cấu trúc rẽ nhánh]: [Đề bài](./Lab/Lab1/lab1.pdf), [Code mẫu](./Lab/Lab1/lab1.py)
-- #### [Lab 2: Thực hành với hàm và vòng lặp]: [Đề bài](./Lab/Lab2/lab2_Python.pdf), [Code mẫu](./Lab/Lab2/ham_while_for.py)
