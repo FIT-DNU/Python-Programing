@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    PYTHON PROGRAMING
+    PYTHON PROGRAMMING
 </h2>
 <div align="center">
     <p align="center">
@@ -39,3 +39,4 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 ## 🚀 3. Danh sách các bài lab
 - #### [Lab 1: Khai báo biến, nhập/xuất, cấu trúc rẽ nhánh]: [Đề bài](./Lab/Lab1/lab1.pdf), [Code mẫu](./Lab/Lab1/lab1.py)
 - #### [Lab 2: Thực hành với vòng lặp và hàm]: [Đề bài](./Lab/Lab2/lab2_Python.pdf), [Code mẫu](./Lab/Lab2/ham_while_for.py)
+- #### [Lab 3: Kiểu tuần tự và tập hợp]: [Đề bài](./Lab/Lab3/Lab3.pdf), [Code mẫu](./Lab/Lab3/Lap3.py)
