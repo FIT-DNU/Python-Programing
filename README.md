@@ -41,3 +41,4 @@ Nội dung học phần ngôn ngữ lập trình Python cung cấp các kiến t
 - #### [Lab 2: Thực hành với vòng lặp và hàm]: [Đề bài](./Lab/Lab2/lab2_Python.pdf), [Code mẫu](./Lab/Lab2/ham_while_for.py)
 - #### [Lab 3: Kiểu tuần tự và tập hợp]: [Đề bài](./Lab/Lab3/Lab3.pdf), [Code mẫu](./Lab/Lab3/lab3.py)
 - #### [Lab 4: Kiểu từ điển]: [Đề bài](./Lab/Lab4/Lab4.pdf), [Code mẫu](./Lab/Lab4/lab4.py)
+- #### [Lab 5: Xử lý ngoại lệ và tệp trong Python]: [Đề bài](./Lab/Lab5/Lab5.pdf), [Code mẫu](./Lab/Lab5/Lab5.py)
