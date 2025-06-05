@@ -1,0 +1,5 @@
+ds_sv=("Nghĩa", "Nghĩa", "Hoàn", "Nghĩa", "An", "Nghĩa", "Quân", "Dũng")
+print(ds_sv)
+print(ds_sv[4])
+print(len(ds_sv))
+print(ds_sv.count("Nghĩa"))
